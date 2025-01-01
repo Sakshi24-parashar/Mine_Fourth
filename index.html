@@ -9,24 +9,28 @@
    
 </head>
 <body>
-    <div id="home" class="bg-fixed bg-center h-[500px]" style="background-image: url('slider-bg.jpg');">
+    <nav >
 
-        <div class="flex justify-between px-8 py-5">
-        <h1 class="text-white font-sans font-bold text-3xl cursor-pointer"><a href="#">GIVA</a></h1>
-        <!-- <img class="fixed border rounded-3xl right-8 h-11 w-11 cursor-pointer shadow-black shadow-md " src="https://cdn3.vectorstock.com/i/1000x1000/42/12/list-sign-icon-content-view-option-symbol-vector-2874212.jpg"   alt=""> -->
-        <div class="opacity-100" >
-            <ul class="text-white flex gap-4 z-10 text-xl font-bold ">
-                <li class="hover:text-orange-500 transition-all cursor-pointer duration-200" >HOME</li>
-                <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">ABOUT</li>
-                <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">BLOG</li>
-                <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">SHOP</li>
-            </ul>
-        </div>
-        </div>
-        <div class="flex flex-col py-6 px-36 gap-6">
-            <h2 class="text-white font-serif text-5xl font-bold">Best Jewellery <br>Collection</h2>
-            <p class="text-white  font-mono ">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Voluptatibus impedit quasi dicta cupiditate, <br>  modi exercitationem repellat soluta dolore. <br> Eius natus quia pariatur iure impedit. Tempora?</p>
-            <a href="https://www.giva.co" target="_blank" class="text-orange-400 border border-orange-400 w-44 px-10  py-2 my-7 rounded-md text-xl cursor-pointer hover:text-white hover:bg-orange-400 transition-all duration-200">Shop Now</a>
+        <div class="flex justify-between items-center px-20 py-5">
+            <h1 class=" font-sans font-bold text-3xl cursor-pointer"><a href="#">GIVA</a></h1>
+            <!-- <img class="fixed border rounded-3xl right-8 h-11 w-11 cursor-pointer shadow-black shadow-md " src="https://cdn3.vectorstock.com/i/1000x1000/42/12/list-sign-icon-content-view-option-symbol-vector-2874212.jpg"   alt=""> -->
+            <div class="opacity-100" >
+                <ul class=" flex gap-6 z-10 text-xl font-bold ">
+                    <li class="hover:text-orange-500 transition-all cursor-pointer duration-200" >HOME</li>
+                    <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">ABOUT</li>
+                    <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">BLOG</li>
+                    <li class="hover:text-orange-500 transition-all cursor-pointer duration-200">SHOP</li>
+                </ul>
+            </div>
+            </div>
+    </nav>
+    <div id="home" class=" relative  h-[500px] w-full" >
+
+        <img class="h-full -z-50 w-full object-fill" src="slider-bg.jpg" alt="">
+        <div class="flex  absolute top-10 left-7  flex-col py-6 px-36 gap-6">
+            <h2 class="z-10 text-white font-serif text-5xl font-bold">Best Jewellery <br>Collection</h2>
+            <p class="z-10 text-white opacity-70  font-mono ">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Voluptatibus impedit quasi dicta cupiditate, <br>  modi exercitationem repellat soluta dolore. <br> Eius natus quia pariatur iure impedit. Tempora?</p>
+            <a href="https://www.giva.co" target="_blank" class="z-10 text-orange-400 border border-orange-400 w-44 px-10  py-2 my-7 rounded-md text-xl cursor-pointer hover:text-white hover:bg-orange-400 transition-all duration-200">Shop Now</a>
         </div>
 
     </div>
@@ -34,7 +38,7 @@
     <div >
         <h2 id="shop" class="text-4xl font-serif text-center my-14 font-bold">LATEST PRODUCTS</h2>
         <div class="grid gap-8 grid-cols-4 grid-rows-2 px-36">
-            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p1.png" alt="">
                  <div class="flex justify-between my-5">
@@ -43,7 +47,7 @@
 
                  </div>
              </a>
-            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p2.png" alt="">
                  <div class="flex justify-between my-5">
@@ -52,7 +56,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p3.png" alt="">
                  <div class="flex justify-between my-5">
@@ -61,7 +65,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/rings" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/rings" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p4.png" alt="">
                  <div class="flex justify-between my-5">
@@ -70,7 +74,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/rings" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/rings" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p5.png" alt="">
                  <div class="flex justify-between my-5">
@@ -79,7 +83,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/earrings" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/earrings" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p6.png" alt="">
                  <div class="flex justify-between my-5">
@@ -88,7 +92,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/earrings" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/earrings" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p7.png" alt="">
                  <div class="flex justify-between my-5">
@@ -97,7 +101,7 @@
 
                  </div>
                 </a>
-            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer">
+            <a href="https://www.giva.co/collections/pendants" target="_blank" class="flex flex-col rounded-md gap-5 bg-gray-200 h-[300px] w-[230px] relative py-2 px-2 cursor-pointer hover:scale-105 hover:shadow-lg transition-all duration-300">
                 <img class=" h-12 w-10   border rounded-3xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLhdV4aK35JYVoDVKpse5S8HrHJZwpVmpqQ&s" alt="">
                  <img  class="h-32 w-36 mx-8" src="p8.png" alt="">
                  <div class="flex justify-between my-5">
@@ -107,7 +111,7 @@
                  </div>
                 </a>
         </div>
-        <button  class="h-8 mx-[500px] m-10 border bg-orange-400 text-white border-orange-500 rounded-md text-xl h-[48px] w-64 hover:text-orange-500 hover:bg-white transition-all duration-200"><a href="https://www.giva.co" target="_blank">View All Products</a></button>
+        <button  class=" mx-[500px] m-10 border bg-orange-400 text-white border-orange-500 rounded-md text-xl h-[48px] w-64 hover:text-orange-500 hover:bg-white transition-all duration-200"><a href="https://www.giva.co" target="_blank">View All Products</a></button>
     </div>
 
     <div id="about" class="flex gap-28 relative m-40">
